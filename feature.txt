@@ -1,1 +1,2 @@
+New text for the conflict1 section of assignment 0
 Some text for assignment 0 referring to the Git section of the homework.
