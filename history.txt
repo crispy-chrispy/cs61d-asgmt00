@@ -1,0 +1,100 @@
+    1  print("Hello Bash!")
+    2  print
+    3  echo $0
+    4  clear
+    5  ls
+    6  "Hello Bash!"
+    7  print() "Hello Bash!"
+    8  echo "Hello Bash!"
+    9  pwd
+   10  print pwd
+   11  echo pwd
+   12  pwd
+   13  cd
+   14  cd OneDrive\Desktop\codifyedu
+   15  cd codifyedu
+   16  cd Desktop
+   17  cd OneDrive
+   18  cd Desktop
+   19  cd codifyedu
+   20  mkdir assignments
+   21  cd assignments
+   22  mkdir bash-assignment
+   23  cd bash-assignment
+   24  touch README.md
+   25  touch meaning-of-life.txt
+   26  ls
+   27  mv meaning-of-life.txt history.txt
+   28  code .
+   29  git init
+   30  git status
+   31  git add README.md history.txt
+   32  git status
+   33  git commit -m "Initial commit"
+   34  git branch new-branch new-feature
+   35  git branch new-feature
+   36  git branch
+   37  git checkout new-feature
+   38  git branch
+   39  touch feature.txt
+   40  ls
+   41  code .
+   42  cd
+   43  cd OneDrive
+   44  cd Desktop
+   45  cd codifyedu
+   46  cd assignments\bash-assignment
+   47  cd assignments
+   48  cd bash-assignment
+   49  ls
+   50  git add feature.txt
+   51  git commit -m "for the first assignment"
+   52  git checkout master
+   53  ls
+   54  git merge new-feature -m "merging branch new-feature into master"
+   55  git branch
+   56  ls
+   57  git branch -d new-feature
+   58  git remove add origin https://github.com/Chrisk306163/cs61d-asgmt00.git
+   59  git remote add origin https://github.com/Chrisk306163/cs61d-asgmt00.git
+   60  git branch -M main
+   61  git push -u origin main
+   62  git branch conflict1
+   63  git checkout conflict1
+   64  code .
+   65  ls
+   66  git add feature.txt README.md
+   67  git commit -m "commits for conflicts asgmt0"
+   68  git checkout master
+   69  git branch
+   70  git checkout main
+   71  ls
+   72  git checkout conflict1
+   73  git branch
+   74  git push origin conflict1
+   75  git checkout main
+   76  git branch conflict2
+   77  code .
+   78  git checkout conflict2
+   79  code.
+   80  code .
+   81  git checkout conflict1
+   82  code .
+   83  git add feature.txt README.md
+   84  git commit -m "commiting with header"
+   85  git push origin conflict1
+   86  git checkout conflict2
+   87  code .
+   88  git add feature.txt README.md
+   89  git commit -m "more committing for conflict2"
+   90  git push origin conflict2
+   91  git checkout main
+   92  git branch
+   93  git pull origin conflict1
+   94  git pull origin main
+   95  git pull origin main
+   96  touch .gitignore
+   97  code .
+   98  git add .gitignore
+   99  git commit -m "commiting for the .gitignore asgmt00"
+  100  history | tail -n 300 >> history.txt
